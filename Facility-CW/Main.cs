@@ -45,5 +45,11 @@ namespace Facility_CW
             m.WriteMemory("BlackOpsColdWar.exe+0xFD6B7C8,0x5CE4", "int", "13337");
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            m.WriteMemory("BlackOpsColdWar.exe+0xFD6B7C8,0x5C30", "float", "5");
+
+        }
     }
 }
