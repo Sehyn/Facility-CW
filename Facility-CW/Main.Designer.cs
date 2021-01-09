@@ -1,7 +1,7 @@
 ﻿
 namespace Facility_CW
 {
-    partial class Form1
+    partial class Faciliot
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -29,86 +29,101 @@ namespace Facility_CW
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.AttachBtn = new System.Windows.Forms.Button();
+            this.GodModeBtn = new System.Windows.Forms.Button();
+            this.InstaKillBtn = new System.Windows.Forms.Button();
+            this.SetCashBtn = new System.Windows.Forms.Button();
+            this.SetSpeedBtn = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button1
+            // AttachBtn
             // 
-            this.button1.Location = new System.Drawing.Point(12, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(389, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Attach to game";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.AttachBtn.Location = new System.Drawing.Point(12, 12);
+            this.AttachBtn.Name = "AttachBtn";
+            this.AttachBtn.Size = new System.Drawing.Size(389, 23);
+            this.AttachBtn.TabIndex = 0;
+            this.AttachBtn.Text = "Attach to game";
+            this.AttachBtn.UseVisualStyleBackColor = true;
+            this.AttachBtn.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // GodModeBtn
             // 
-            this.button2.Location = new System.Drawing.Point(12, 41);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(389, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "God Mode";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.GodModeBtn.Location = new System.Drawing.Point(12, 41);
+            this.GodModeBtn.Name = "GodModeBtn";
+            this.GodModeBtn.Size = new System.Drawing.Size(389, 23);
+            this.GodModeBtn.TabIndex = 1;
+            this.GodModeBtn.Text = "God Mode";
+            this.GodModeBtn.UseVisualStyleBackColor = true;
+            this.GodModeBtn.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // InstaKillBtn
             // 
-            this.button3.Location = new System.Drawing.Point(12, 70);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(389, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "InstaKill";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.InstaKillBtn.Location = new System.Drawing.Point(12, 194);
+            this.InstaKillBtn.Name = "InstaKillBtn";
+            this.InstaKillBtn.Size = new System.Drawing.Size(389, 23);
+            this.InstaKillBtn.TabIndex = 2;
+            this.InstaKillBtn.Text = "InstaKill";
+            this.InstaKillBtn.UseVisualStyleBackColor = true;
+            this.InstaKillBtn.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // SetCashBtn
             // 
-            this.button4.Location = new System.Drawing.Point(12, 99);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(389, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Set Cash";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.SetCashBtn.Location = new System.Drawing.Point(12, 70);
+            this.SetCashBtn.Name = "SetCashBtn";
+            this.SetCashBtn.Size = new System.Drawing.Size(389, 23);
+            this.SetCashBtn.TabIndex = 3;
+            this.SetCashBtn.Text = "Set Cash";
+            this.SetCashBtn.UseVisualStyleBackColor = true;
+            this.SetCashBtn.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button5
+            // SetSpeedBtn
             // 
-            this.button5.Location = new System.Drawing.Point(12, 128);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(389, 23);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Set Speed";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.SetSpeedBtn.Location = new System.Drawing.Point(12, 99);
+            this.SetSpeedBtn.Name = "SetSpeedBtn";
+            this.SetSpeedBtn.Size = new System.Drawing.Size(389, 23);
+            this.SetSpeedBtn.TabIndex = 4;
+            this.SetSpeedBtn.Text = "Set Speed";
+            this.SetSpeedBtn.UseVisualStyleBackColor = true;
+            this.SetSpeedBtn.Click += new System.EventHandler(this.button5_Click);
             // 
-            // Form1
+            // textBox1
+            // 
+            this.textBox1.Enabled = false;
+            this.textBox1.Location = new System.Drawing.Point(12, 128);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(389, 60);
+            this.textBox1.TabIndex = 5;
+            this.textBox1.Text = "Log:";
+            // 
+            // Faciliot
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(413, 262);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.SetSpeedBtn);
+            this.Controls.Add(this.SetCashBtn);
+            this.Controls.Add(this.InstaKillBtn);
+            this.Controls.Add(this.GodModeBtn);
+            this.Controls.Add(this.AttachBtn);
+            this.Name = "Faciliot";
+            this.Text = "Facility:CW";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button AttachBtn;
+        private System.Windows.Forms.Button GodModeBtn;
+        private System.Windows.Forms.Button InstaKillBtn;
+        private System.Windows.Forms.Button SetCashBtn;
+        private System.Windows.Forms.Button SetSpeedBtn;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

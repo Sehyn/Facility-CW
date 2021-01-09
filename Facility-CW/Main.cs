@@ -11,13 +11,13 @@ using Memory;
 
 namespace Facility_CW
 {
-    public partial class Form1 : Form
+    public partial class Faciliot : Form
     {
 
         Mem m = new Mem();
 
 
-        public Form1()
+        public Faciliot()
         {
             InitializeComponent();
 
@@ -31,12 +31,12 @@ namespace Facility_CW
 
         private void button2_Click(object sender, EventArgs e)
         {
-            m.WriteMemory("BlackOpsColdWar.exe+0xFD6B7C8,0x398", "int", "1000");
+            m.WriteMemory("BlackOpsColdWar.exe+0xFD6B7C8,0xE67", "byte", "0xA0");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            m.WriteMemory("BlackOpsColdWar.exe+0xFD6B7C8,0x8", "int", "1");
+            m.WriteMemory("BlackOpsColdWar.exe+0xFD6B7C8,0x8,0x398", "int", "1");
 
         }
 
@@ -49,6 +49,11 @@ namespace Facility_CW
         private void button5_Click(object sender, EventArgs e)
         {
             m.WriteMemory("BlackOpsColdWar.exe+0xFD6B7C8,0x5C30", "float", "5");
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
 
         }
     }
